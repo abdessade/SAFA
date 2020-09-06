@@ -1,0 +1,232 @@
+*{
+    text-decoration: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+/*costimisation navbar*/
+.navbar{
+    width: 100%;
+    height: 60px;
+    box-shadow:1px 1px 10px #21455a;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+.navbar p{
+    font-size: 27px;
+    font-family:Comfortaa;
+    float: left;
+    margin-top: 0;
+    padding: 10px;
+    color:rgb(172, 8, 41) ;
+}
+.navbar ul{
+    list-style-type: none;
+    float: left;
+    margin-left: 37%;
+    width: 42%;
+    margin-top: 30px;
+  
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 3%;
+    font-family: Comfortaa;
+    color: #21455a; 
+}
+.navbar ul li:hover{
+    color: rgb(255, 5, 55);
+}
+
+/*costimisation header*/
+.header{
+    /*clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);*/
+    /*clip-path: circle(50% at 50% 50%);*/
+
+    width: 100%;
+    height: 600px;
+    background-image: url('../IMG/activité5.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+
+.opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+.header h1{
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    color: white;
+    font-family: Cairo;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: solid rgb(172, 8, 41);
+    font-weight: bold;
+
+} 
+
+.header p{
+    position: absolute;
+    top: 350px;
+    left: 10%;
+    color: white;
+    font-family: Cairo;
+    text-align: center;
+    
+}
+/*apropos*/
+.about{
+    
+    padding: 80px 0 80px 0;
+}
+.about p{
+    width: 45%;
+    font-family: cairo;
+    font-size: 20px;
+    float: left;
+    margin-left: 3%;
+    color: #21455a;
+}
+.about p span{
+    display: block;
+    font-family: comfortaa;
+    font-size: 30px;
+    border-bottom: solid rgb(172, 8, 41);
+    width: 35%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #21455a;
+}
+.about img{
+    width: 45%;
+    height: 400px;
+    margin-left: 3%;
+    box-shadow: 10px 0 10px black;
+    border-radius: 5px;
+}
+/*Activités*/
+.nos-activites{
+    padding: 80px 0 80px 0;
+    background-size: cover;
+    background-image: url('../IMG/bibliotheque1.jpg');
+    position:relative;
+    width: 100%;
+    height: 400px;
+}
+
+.nos-activites span{
+    color:#68757c;
+    font-size: 40px;
+    font-family: cairo;
+    border-bottom: solid  rgb(172, 8, 41);
+    position: absolute;
+    left: 40%;
+    font-weight: bold;
+}
+
+
+.nos-activites .opac .item{
+    width: 20%;
+    height: 300px;
+    color:rgb(245, 233, 233,1);
+    font-family: cairo;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 5%;
+    float: left;
+}
+.nos-activites .opac .item i{
+    background-color: red;
+    padding: 10px;
+    
+}
+
+
+/*nOTRE tRAVAIL*/
+
+.notre_travail{
+    padding: 100px 0;
+}
+.notre_travail span{
+    color:#68757c;
+    font-size: 40px;
+    font-family: cairo;
+    border-bottom: solid  rgb(172, 8, 41);
+    margin-left: 36%;
+    font-weight: bold;
+     
+}
+.notre_travail img{
+    width: 25%;
+    height: 250px;
+    margin: 3% 0 0 6.5%;
+    /*animation-name:slide-top;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;*/
+    
+}
+
+/*contactez_nous*/
+.contactez_nous{
+    padding: 100px 0;
+}
+.contactez_nous .item{
+    width: 25%;
+    height: 100px;
+    float: left;
+    box-shadow: 0 0 20px black;
+    margin-left: 6%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Comfortaa;
+    padding-top: 40px;
+    font-size: 20px;
+    color: #21455a;
+}
+.contactez_nous ul{
+    list-style-type: none;
+    margin-top: 200px;
+    margin-left: 38%;
+}
+.contactez_nous ul li {
+    display: inline;
+    margin-left: 6%;
+    
+}
+.contactez_nous ul li i{
+    color: rgb(172, 8, 41);
+}
+
+.copyrigth{
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding:10px 0;
+    font-family: cairo;
+}
+
+.pagination{
+    margin-left: 40%;
+}
+@media all{
+
+}
+@media print{
+
+}
+@media screen{
+
+}
+/*animation image*/
+@-webkit-keyframes flip-scale-up-hor{0%{-webkit-transform:scale(1) rotateX(0);transform:scale(1) rotateX(0)}50%{-webkit-transform:scale(2.5) rotateX(-90deg);transform:scale(2.5) rotateX(-90deg)}100%{-webkit-transform:scale(1) rotateX(-180deg);transform:scale(1) rotateX(-180deg)}}@keyframes flip-scale-up-hor{0%{-webkit-transform:scale(1) rotateX(0);transform:scale(1) rotateX(0)}50%{-webkit-transform:scale(2.5) rotateX(-90deg);transform:scale(2.5) rotateX(-90deg)}100%{-webkit-transform:scale(1) rotateX(-180deg);transform:scale(1) rotateX(-180deg)}}
+@-webkit-keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-100px);transform:translateY(-100px)}}@keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-100px);transform:translateY(-100px)}}
